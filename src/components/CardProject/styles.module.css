@@ -71,8 +71,9 @@
 
 .MainContainer > ul > li > ul > li > a{
   color: #ff5d56;
-  font-size: max(10px, 0.4vw);
+  font-size: max(10px, 0.6vw);
   text-align: center;
+  margin-top: 1vw;
   margin-bottom: 15px;
   font-family: "Berkshire Swash", cursive;
   }
