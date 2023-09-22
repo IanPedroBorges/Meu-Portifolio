@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 60vw;
-    margin: 0 auto;
+    margin: 30px auto;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -18,11 +18,31 @@
 
 .MainContainer > ul > li {
     list-style: none;
-    font-size: max(1.2vw, 1rem);
-    font-weight: 500;
-    padding: 0.4vw;
-    color: #c5bdbd;
-    background-color: #333;;
+    border: 1px solid #ff5d56;
     border-radius: 50%;
+    font-size: max(1.2vw, 1rem);
     transition: all 0.8s ease-in-out;
+    font-weight: 500;
+    padding: 0.8vw;
+}
+
+.MainContainer > ul > li > a {
+    color: #c5bdbd;
+}
+
+@media (max-width: 600px) {
+    .MainContainer > ul > li {
+        font-size: 3vw;
+        padding: 1rem;
+    }
+
+    .MainContainer > ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .MainContainer {
+        width: 100vw;
+    }
+
 }

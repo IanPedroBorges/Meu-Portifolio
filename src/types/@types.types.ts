@@ -1,7 +1,6 @@
 export type Hability = {
     name: string;
     image: string;
-    description: string;
 }
 
 export type Project = {

@@ -88,13 +88,13 @@ export default function CardProject() {
           <p>Tech Stack: {ProjectArray[project.project1].tech}</p>
           <ul>
             <li>
-              <a href={ProjectArray[project.project1].deploy}>
-                Ver Site
+              <a target="_blank" href={ProjectArray[project.project1].deploy}>
+                Site
               </a>
             </li>
             <li>
-              <a href={ProjectArray[project.project1].github}>
-                Ver o Repositorio
+              <a target="_blank" href={ProjectArray[project.project1].github}>
+                Repositorio
               </a>
             </li>
           </ul>
@@ -106,13 +106,13 @@ export default function CardProject() {
           <p>Tech Stack: {ProjectArray[project.project2].tech}</p>
           <ul>
             <li>
-              <a href={ProjectArray[project.project2].deploy}>
-                Ver Site
+              <a target="_blank" href={ProjectArray[project.project2].deploy}>
+                Site
               </a>
             </li>
             <li>
-              <a href={ProjectArray[project.project2].github}>
-                Ver o Repositorio
+              <a target="_blank" href={ProjectArray[project.project2].github}>
+                Repositorio
               </a>
             </li>
           </ul>
@@ -124,13 +124,13 @@ export default function CardProject() {
           <p>Tech Stack: {ProjectArray[project.project3].tech}</p>
           <ul>
             <li>
-              <a href={ProjectArray[project.project3].deploy}>
-                Ver Site
+              <a target="_blank" href={ProjectArray[project.project3].deploy}>
+                Site
               </a>
             </li>
             <li>
-              <a href={ProjectArray[project.project3].github}>
-                Ver o Repositorio
+              <a target="_blank" href={ProjectArray[project.project3].github}>
+                Repositorio
               </a>
             </li>
           </ul>

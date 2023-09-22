@@ -84,3 +84,36 @@
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .MainContainer > ul > li:nth-child(4) {
+    display: none;
+  }
+
+  .MainContainer > ul > li:nth-child(3) {
+    width: 40%;
+  }
+
+  .MainContainer > ul > li:nth-child(2) {
+    width: 40%;
+  }
+
+  .MainContainer > ul > li > button {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .MainContainer > ul > li:nth-child(3) {
+    width: 70%;
+  }
+
+  .MainContainer > ul > li:nth-child(2) {
+    display: none;
+  }
+
+  .MainContainer > ul > li > button {
+    font-size: 10vw;
+  }
+}
