@@ -26,6 +26,13 @@
     padding: 0.8vw;
 }
 
+.MainContainer > ul > li:hover {
+    transition: all 0.8s ease-in-out;
+    background-color: #ff5d56;
+    color: #fff;
+    border: none;
+}
+
 .MainContainer > ul > li > a {
     color: #c5bdbd;
 }

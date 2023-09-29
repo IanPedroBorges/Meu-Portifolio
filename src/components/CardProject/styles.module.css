@@ -32,13 +32,25 @@
   border: none;
 }
 
+.MainContainer > ul > li:nth-child(2) {
+  justify-content: start;
+}
+
+.MainContainer > ul > li:nth-child(3) {
+  justify-content: start;
+}
+
+.MainContainer > ul > li:nth-child(4) {
+  justify-content: start;
+}
+
 .MainContainer > ul > li:nth-child(5) {
   border: none;
 }
 
 
 .MainContainer > ul > li p {
-  text-align: left;
+  text-align: center;
   font-size: max(0.6vw, 14px);
   font-weight: 500;
   padding: 0.4vw;
@@ -49,8 +61,14 @@
 
 .MainContainer > ul > li > img {
   width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
+  height: 50%;
+  border-radius: 50px 50px 0 0;
+}
+
+.MainContainer > ul > li > img:hover {
+  border-radius: 0;
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.5);
 }
 
 .MainContainer > ul > li > ul {
