@@ -25,7 +25,7 @@ export default function Curriculo() {
           <br />
           <strong>Seja bem-vindo e sinta-se à vontade!😀😀😀 </strong>
         </p>
-        <a href="#" download={''}>Baixar Curriculo</a>
+        <a href="https://drive.google.com/file/d/1nrodZNvoDRcsNd-E3Xkzddgiljst4xRY/view?usp=share_link">Baixar Curriculo</a>
       </div>
       <section>
         <Lottie id="image" animationData={animation} />
