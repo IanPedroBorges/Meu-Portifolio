@@ -28,6 +28,7 @@
 
 .MainContainer > ul > li:hover {
     transition: all 0.8s ease-in-out;
+    cursor: pointer;
     background-color: #ff5d56;
     color: #fff;
     border: none;

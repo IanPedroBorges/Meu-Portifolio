@@ -3,6 +3,7 @@
   background-color: #000;
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
+  align-self: center;
   align-items: center;
   gap: 60px;
   padding: 60px;

@@ -22,16 +22,16 @@ export default function Header() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">Sobre Mim</a>
           </li>
           <li>
-            <a href="#hability">Hability</a>
+            <a href="#hability">Habilidades</a>
           </li>
           <li>
-            <a href="#project">Project</a>
+            <a href="#project">Projetos</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contatos</a>
           </li>
         </ul>
       </nav>

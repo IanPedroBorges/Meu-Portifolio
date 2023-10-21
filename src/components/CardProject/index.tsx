@@ -85,8 +85,8 @@ export default function CardProject() {
         <li>
           <img src={ProjectArray[project.project1].image} alt="" />
           <h3>{ProjectArray[project.project1].title}</h3>
-          <p>{ProjectArray[project.project1].description}</p>
-          <p>Tech Stack: {ProjectArray[project.project1].tech}</p>
+          <p><strong>Descrição:</strong>{ProjectArray[project.project1].description}</p>
+          <p><strong>Tecnologias usadas:</strong> {ProjectArray[project.project1].tech}</p>
           <ul>
             <li>
               <a target="_blank" href={ProjectArray[project.project1].deploy}>
@@ -103,8 +103,8 @@ export default function CardProject() {
         <li>
           <img src={ProjectArray[project.project2].image} alt="" />
           <h3>{ProjectArray[project.project2].title}</h3>
-          <p>{ProjectArray[project.project2].description}</p>
-          <p>Tech Stack: {ProjectArray[project.project2].tech}</p>
+          <p><strong>Descrição:</strong>{ProjectArray[project.project2].description}</p>
+          <p><strong>Tecnologias usadas:</strong> {ProjectArray[project.project2].tech}</p>
           <ul>
             <li>
               <a target="_blank" href={ProjectArray[project.project2].deploy}>
@@ -121,8 +121,8 @@ export default function CardProject() {
         <li>
           <img src={ProjectArray[project.project3].image} alt="" />
           <h3>{ProjectArray[project.project3].title}</h3>
-          <p>{ProjectArray[project.project3].description}</p>
-          <p>Tech Stack: {ProjectArray[project.project3].tech}</p>
+          <p><strong>Descrição:</strong>{ProjectArray[project.project3].description}</p>
+          <p><strong>Tecnologias usadas:</strong>{ProjectArray[project.project3].tech}</p>
           <ul>
             <li>
               <a target="_blank" href={ProjectArray[project.project3].deploy}>

@@ -15,13 +15,17 @@ export default function Curriculo() {
           Ola 👋, Meu Nome é<br />
           <strong>Ian Pedro Borges</strong> Eu Sou
         </h2>
-        <h2 className={styles.animation}><strong>Desenvolvedor Full Stack</strong></h2>
+        <h2 className={styles.animation}>
+          <strong>Desenvolvedor Full Stack</strong>
+        </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-          distinctio, aspernatur exercitationem hic delectus mollitia illo
-          laborum quam vero porro?
+          Neste Portfólio, você terá acesso a informações sobre mim, minhas
+          habilidades e projetos que desenvolvi. Além disso, poderá baixar meu
+          currículo em PDF e encontrar meus contatos para podermos conversar.
+          <br />
+          <strong>Seja bem-vindo e sinta-se à vontade!😀😀😀 </strong>
         </p>
-        <a href="#">Dowload CV</a>
+        <a href="#" download={''}>Baixar Curriculo</a>
       </div>
       <section>
         <Lottie id="image" animationData={animation} />

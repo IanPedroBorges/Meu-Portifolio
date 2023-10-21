@@ -2,17 +2,19 @@ import CardProject from "../CardProject";
 import styles from "./styles.module.css";
 
 export default function Project() {
-
   return (
     <section className={styles.project}>
       <div className={styles.sobreTitulo}>
-        <h1>My Projects</h1>
+        <h1>Meus Projetos</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis
-          mollitia dolorum officia maiores laborum ab, quae, atque minima
-          deserunt non ducimus, laboriosam voluptatum vero exercitationem veniam
-          veritatis porro consequatur?
+          Nesta seção, você encontrará uma seleção dos projetos que desenvolvi
+          ao longo da minha jornada como desenvolvedor Full Stack. Cada projeto
+          representa uma oportunidade para aplicar minhas habilidades e
+          conhecimentos em tecnologias web modernas, desde o frontend até o
+          backend. Explore esses projetos para ver como eles foram criados e
+          como você pode fazer o mesmo.
         </p>
+
         <div aria-label="Seção apenas de ilustrações de botões">
           <span></span>
           <span></span>

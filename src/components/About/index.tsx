@@ -10,7 +10,7 @@ export default function About() {
     <main className={styles.main}>
       <article aria-label="seção sobre mim" className={styles.sobre}>
       <div className={styles.sobreTitulo}>
-          <h1 id="about">About Me</h1>
+          <h1 id="about">Sobre Mim</h1>
           <p>Professional Profile - There is All About me</p>
           <div aria-label="Seção apenas de ilustrações de botões">
             <span></span>
@@ -23,13 +23,9 @@ export default function About() {
           <div className={styles.sobreTexto}>
             <h1>I'M Dev Full Stack - Ian Borges</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              repudiandae esse ullam obcaecati eum deleniti expedita fuga labore
-              magnam laborum!
+            Olá! Meu nome é Ian Pedro Borges, e sou natural de Minas Gerais. Atualmente, estou empolgado em estar estudando na Trybe, uma instituição renomada que tem me proporcionado um aprendizado profundo em desenvolvimento web. Minha jornada na área de programação começou há dois ano e meio, quando decidi me dedicar de forma autodidata para aprender os fundamentos e conceitos básicos da programação web.
               <br />
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias,
-              dolorum sunt? Id unde quos eius ullam. Omnis, sed eum rerum veniam
-              quia velit repellendus molestiae quis, odio quasi at facere.
+              Agora,  com a oportunidade de estudar na Trybe, estou aprimorando minhas habilidades e expandindo meu conhecimento em tecnologias modernas e práticas ágeis de desenvolvimento. Estou entusiasmado em dar o próximo passo na minha carreira e ingressar no mercado de trabalho como programador web. Durante minha trajetória de estudos, desenvolvi projetos pessoais e participei de desafios que me permitiram aplicar o que aprendi e aprofundar minha compreensão em diferentes áreas da programação. Busco meu primeiro emprego em uma empresa inovadora, onde possa contribuir com minhas habilidades técnicas e minha sede de aprender e crescer como profissional. 
             </p>
           </div>
           <div className={styles.sobreInfo}>

@@ -1,7 +1,7 @@
-import HTMLImage from '../images/html5-ga5d0bba18_640.png';
-import JavaScript from '../images/javascript-ga0e13006d_640.png';
+import HTMLImage from '../images/html5-1841458_640.png';
+import JavaScript from '../images/icons8-javascript.svg';
 import CSSImage from '../images/css3-g3fe22b100_640.png';
-import ReactImage from '../images/React.png';
+import ReactImage from '../images/icons8-react-80.png';
 import TypeScript from '../images/TypeScript.png';
 import ViteImage from '../images/Vite.jpeg';
 import RTLImage from '../images/ReactTest.png';
@@ -42,7 +42,7 @@ export const HabilityArray = [
         description: 'Vite Blabla'
     },
     {
-        name: 'React Testing Library',
+        name: 'RTL',
         image: RTLImage,
         description: 'RTL Blabla'
     },
