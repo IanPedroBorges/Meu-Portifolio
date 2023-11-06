@@ -2,6 +2,7 @@ import contruction from '../images/in construction.jpg'
 import ibge from '../images/projects/test-tecnico.png'
 import recipe from '../images/projects/recipes.png'
 import trybeWallet from '../images/projects/TrybeWallet.png'
+import storeManager from '../images/projects/StoreManager.jpeg'
 
 export const ProjectArray = [
     {
@@ -29,20 +30,20 @@ export const ProjectArray = [
         tech: 'React, Typescript, Redux, Css, React Testing Library'
     },
     {
-        image: contruction,
-        title: 'Projeto em Construção',
-        description: ' numero 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,',
-        github: '',
+        image: storeManager,
+        title: 'StoreManager',
+        description: ' O StoreManager é um projeto de backend desenvolvido na Trybe que se concentra em criar uma aplicação de gerenciamento de loja. Este projeto oferece soluções para melhorar o funcionamento de uma loja, incluindo o acompanhamento de produtos, pedidos, e clientes.',
+        github: 'https://github.com/IanPedroBorges/StoreManager',
         deploy: '',
-        tech: 'HTML, CSS , Javascript'
+        tech: 'Node, Javascript, Express, Mysql'
     },
     {
-        image: contruction,
-        title: 'Projeto em Construção',
-        description: ' numero 5 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,',
-        github: '',
+        image: storeManager,
+        title: 'BlogsApi',
+        description: 'O BlogsApi é um projeto que se concentra em criar uma API para gerenciar blogs e postagens online. Esta API oferece uma plataforma robusta para criar, visualizar, editar e excluir blogs e suas postagens. ',
+        github: 'https://github.com/IanPedroBorges/BlogsApi',
         deploy: '',
-        tech: 'HTML, CSS , Javascript'
+        tech: 'Node, Javascript, Express, Mysql, Sequelize'
     },
     {
         image: contruction,
