@@ -8,57 +8,72 @@ import RTLImage from '../images/ReactTest.png';
 import Sprint from '../images/Sprint.png';
 import Kanban from '../images/Kaban.jpeg';
 import Redux from '../images/Redux.png';
+import Node from '../images/nodejs.png';
+import Mysql from '../images/mysql.png';
+import Sequelize from '../images/sequelize.png';
+import Express from '../images/express.png';
+import Docker from '../images/icons8-docker-96.png';
 
 
 export const HabilityArray = [
     {
         name: 'HTML',
         image: HTMLImage,
-        description: 'blabla',
     },
     {
         name: 'CSS',
         image: CSSImage,
-        description: 'CSS Blabla'
     },
     {
         name: 'JavaScript',
         image: JavaScript,
-        description: 'JavaScript Blabla'
     },
     {
         name: 'React',
         image: ReactImage,
-        description: 'React Blabla'
     },
     {
         name: 'TypeScript',
         image: TypeScript,
-        description: 'TypeScript Blabla'
     },
     {
         name: 'Vite',
         image: ViteImage,
-        description: 'Vite Blabla'
     },
     {
         name: 'RTL',
         image: RTLImage,
-        description: 'RTL Blabla'
     },
     {
         name: 'Scrum e Sprint',
         image: Sprint,
-        description: 'Sprint Blabla'
     },
     {
         name: 'Kanban',
         image: Kanban,
-        description: 'Kanban Blabla'
     },
     {
         name: 'Redux',
         image: Redux,
-        description: 'Redux Blabla'
     },
+    {
+        name: 'Node',
+        image: Node,
+    },
+    {
+        name: 'Mysql',
+        image: Mysql,
+    },
+    {
+        name: 'Sequelize',
+        image: Sequelize,
+    },
+    {
+        name: 'Express',
+        image: Express,
+    },
+    {
+        name: 'Docker',
+        image: Docker,
+    }
 ]
