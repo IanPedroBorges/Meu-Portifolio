@@ -49,6 +49,42 @@
   border: none;
 }
 
+.MainNavigation {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.MainNavigation li  {
+  padding: 1rem;
+  background-color: #ff5d56;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.MainNavigation li button {
+  border: none;
+  background-color: transparent;
+  color: #151515;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.MainNavigation li:hover {
+  background-color: #c5bdbd;
+  cursor: pointer;
+}
+
+
+.MainContainer > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 
 .MainContainer > ul > li p {
   text-align: center;
