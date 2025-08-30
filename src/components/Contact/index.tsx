@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BsPhone, BsHouseDoorFill, BsGithub, BsLinkedin, BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
