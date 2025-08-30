@@ -129,7 +129,7 @@ src/
 
 - **📧 Email:** ianpborges0@gmail.com
 - **📱 WhatsApp:** (33) 984253047
-- **📍 Localização:** Coroaci - Minas Gerais
+- **📍 Localização:** Contagem - Minas Gerais
 - **💼 LinkedIn:** [Ian Pedro Borges](https://linkedin.com/in/ianpedroborges)
 - **🐱 GitHub:** [ianpedroborges](https://github.com/ianpedroborges)
 
