@@ -13,7 +13,7 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=5533987157144">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=5533984253047">
             <BsWhatsapp />
           </a>
         </li>

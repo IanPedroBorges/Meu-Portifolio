@@ -1,0 +1,200 @@
+.experience {
+  background-color: #0a0a0a;
+  padding: 80px 60px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceTitle {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.experienceTitle h1 {
+  font-size: 3rem;
+  color: #ff5d56;
+  margin-bottom: 20px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.experienceTitle p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.experienceTitle div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.experienceTitle span {
+  width: 12px;
+  height: 12px;
+  background-color: #ff5d56;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.experienceContainer {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experienceCard {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border-radius: 15px;
+  padding: 30px;
+  border-left: 5px solid #ff5d56;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.experienceCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 93, 86, 0.1) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.experienceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(255, 93, 86, 0.2);
+}
+
+.experienceCard:hover::before {
+  opacity: 1;
+}
+
+.experienceCard.current {
+  border-left-color: #28a745;
+  background: linear-gradient(135deg, #1a2f1a 0%, #2d4d2d 100%);
+}
+
+.experienceCard.current::before {
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.1) 0%, transparent 50%);
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.companyInfo h3 {
+  font-size: 1.8rem;
+  color: #ff5d56;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.experienceCard.current .companyInfo h3 {
+  color: #28a745;
+}
+
+.companyInfo h4 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.period {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ccc;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.currentBadge {
+  background-color: #28a745;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #ff5d56;
+  font-size: 1.2rem;
+}
+
+.experienceCard.current .icon {
+  color: #28a745;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .experience {
+    padding: 60px 20px;
+  }
+  
+  .experienceTitle h1 {
+    font-size: 2.5rem;
+  }
+  
+  .experienceCard {
+    padding: 20px;
+  }
+  
+  .experienceHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .companyInfo h3 {
+    font-size: 1.5rem;
+  }
+  
+  .companyInfo h4 {
+    font-size: 1.1rem;
+  }
+  
+  .period {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experienceTitle h1 {
+    font-size: 2rem;
+  }
+  
+  .experienceCard {
+    padding: 15px;
+  }
+  
+  .companyInfo h3 {
+    font-size: 1.3rem;
+  }
+}

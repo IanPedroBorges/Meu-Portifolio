@@ -38,7 +38,7 @@
   margin-top: -2rem;
   border-right: 2px solid white;
   animation: blinkCursor 500ms infinite normal,
-    typing 6s steps(22) 1s infinite normal both ;
+    typing 6s steps(25) 1s infinite normal both ;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -75,10 +75,10 @@
     width: 0ch;
   }
   50% {
-    width: 20ch;
+    width: 25ch;
   }
   70% {
-    width: 20ch;
+    width: 25ch;
   }
   90% {
     width: 0ch;

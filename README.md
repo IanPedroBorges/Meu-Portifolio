@@ -1,27 +1,147 @@
-# React + TypeScript + Vite
+# 🚀 Portfólio - Ian Pedro Borges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Portfólio pessoal desenvolvido com React, TypeScript e Vite
 
-Currently, two official plugins are available:
+## 🌐 Acesso ao Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🔗 URL de Produção:** [https://ianpedroborges.vercel.app/](https://ianpedroborges.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📋 Sobre o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+Este é meu portfólio pessoal, onde apresento minhas habilidades, projetos e informações de contato. O site foi desenvolvido com foco em performance, responsividade e uma experiência de usuário moderna.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### ✨ Características
+
+- 📱 **Totalmente Responsivo** - Adaptado para todos os dispositivos
+- ⚡ **Performance Otimizada** - Carregamento rápido e eficiente
+- 🎨 **Design Moderno** - Interface limpa e profissional
+- 🌟 **Animações Suaves** - Transições e efeitos visuais elegantes
+- 📧 **Contato Direto** - Links para WhatsApp, email e redes sociais
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **React 18** - Biblioteca para construção da interface
+- **TypeScript** - Tipagem estática para maior robustez
+- **Vite** - Build tool moderna e rápida
+- **CSS Modules** - Estilização modular e isolada
+
+### Ferramentas de Desenvolvimento
+- **ESLint** - Linting e padronização de código
+- **React Testing Library** - Testes de componentes
+- **Vercel** - Deploy e hospedagem
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/          # Componentes React
+│   ├── About/           # Seção sobre mim
+│   ├── Contact/         # Seção de contato
+│   ├── Footer/          # Rodapé
+│   ├── Header/          # Cabeçalho e navegação
+│   ├── Home/            # Seção inicial
+│   ├── Projects/        # Seção de projetos
+│   └── Skills/          # Seção de habilidades
+├── assets/              # Recursos estáticos
+├── images/              # Imagens do projeto
+├── types/               # Definições de tipos TypeScript
+├── utils/               # Funções utilitárias
+└── hooks/               # Custom hooks
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. **Clone o repositório**
+   ```bash
+   git clone <url-do-repositorio>
+   cd Meu-Portifolio
+   ```
+
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
+
+3. **Execute o projeto**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse no navegador**
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## 📦 Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Gera a build de produção
+- `npm run preview` - Visualiza a build de produção
+- `npm run lint` - Executa o linting do código
+
+---
+
+## 🎯 Seções do Portfólio
+
+### 🏠 Home
+- Apresentação inicial
+- Call-to-action para download do currículo
+
+### 👨‍💻 Sobre Mim
+- Informações pessoais e profissionais
+- Trajetória e objetivos
+- Dados de contato
+
+### 🛠️ Habilidades
+- Tecnologias frontend e backend
+- Ferramentas e metodologias
+
+### 💼 Projetos
+- Portfólio de projetos desenvolvidos
+- Links para repositórios e demos
+- Tecnologias utilizadas em cada projeto
+
+### 📞 Contato
+- Informações de contato direto
+- Links para redes sociais
+- WhatsApp, email e localização
+
+---
+
+## 📱 Contato
+
+- **📧 Email:** ianpborges0@gmail.com
+- **📱 WhatsApp:** (33) 984253047
+- **📍 Localização:** Coroaci - Minas Gerais
+- **💼 LinkedIn:** [Ian Pedro Borges](https://linkedin.com/in/ianpedroborges)
+- **🐱 GitHub:** [ianpedroborges](https://github.com/ianpedroborges)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<div align="center">
+  <p>Desenvolvido com ❤️ por <strong>Ian Pedro Borges</strong></p>
+  <p>🌐 <a href="https://ianpedroborges.vercel.app/">Visite o Portfólio</a></p>
+</div>

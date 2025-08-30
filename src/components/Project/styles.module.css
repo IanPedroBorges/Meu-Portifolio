@@ -1,34 +1,111 @@
+.project {
+  padding: var(--spacing-4xl) var(--spacing-xl);
+  background: var(--background-primary);
+  min-height: 100vh;
+}
+
 .sobreTitulo {
-    margin: 30px 0;
-    grid-column: 1/-1;
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  margin-bottom: var(--spacing-4xl);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sobreTitulo h1 {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-secondary);
+}
+
+.sobreTitulo p {
+  color: var(--text-secondary);
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xl);
+}
+
+.sobreTitulo div {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+}
+
+.sobreTitulo span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  animation: pulse 2s infinite;
+}
+
+.sobreTitulo span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.sobreTitulo span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+
+
+
+.projectArmazenamento {
+  width: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    padding: var(--spacing-2xl) var(--spacing-md);
   }
   
   .sobreTitulo h1 {
-    font-size: 2.5rem;
-    color: #ff5d56;
-    margin-bottom: 15px;
-    font-family: "Berkshire Swash", cursive;
+    font-size: var(--font-size-3xl);
   }
   
   .sobreTitulo p {
-    color: #707070;
-    font-size: max(20px, 1.3vw);
-    margin-bottom: 1rem;
-    position: relative;
+    font-size: var(--font-size-base);
   }
   
-  .sobreTitulo div {
-    display: flex;
-    gap: 10px;
+  .projectModels ul {
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+  }
+  
+  .projectModels li {
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .project {
+    padding: var(--spacing-xl) var(--spacing-sm);
+  }
+  
+  .sobreTitulo h1 {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .projectModels ul {
+    flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .sobreTitulo span {
-    display: block;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: #dc3545;
-  }
+}

@@ -1,10 +1,17 @@
 import CardProject from "../CardProject";
 import styles from "./styles.module.css";
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 
 export default function Project() {
+  const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { elementRef: contentRef, isVisible: contentVisible } = useScrollAnimation({ threshold: 0.1 });
+
   return (
     <section className={styles.project}>
-      <div className={styles.sobreTitulo}>
+      <div 
+        ref={titleRef as React.RefObject<HTMLDivElement>}
+        className={`${styles.sobreTitulo} ${titleVisible ? 'fade-in-up' : ''}`}
+      >
         <h1>Meus Projetos</h1>
         <p>
           Nesta seção, você encontrará uma seleção dos projetos que desenvolvi
@@ -21,14 +28,11 @@ export default function Project() {
           <span></span>
         </div>
       </div>
-      <div className={styles.projectModels}>
-        <ul aria-label="Navegação entre modelos expecificos de projetos">
-          <li>All</li>
-          <li>Studies</li>
-          <li>Professional</li>
-        </ul>
-      </div>
-      <div className={styles.projectArmazenamento}>
+
+      <div 
+        ref={contentRef as React.RefObject<HTMLDivElement>}
+        className={`${styles.projectArmazenamento} ${contentVisible ? 'fade-in-up' : ''}`}
+      >
         <CardProject />
       </div>
     </section>

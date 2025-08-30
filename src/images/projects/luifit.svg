@@ -1,0 +1,8 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="200" fill="#8B008B"/>
+<circle cx="150" cy="100" r="60" fill="white" stroke="#8B008B" stroke-width="3"/>
+<path d="M120 85 L130 95 L180 70" stroke="#8B008B" stroke-width="4" fill="none"/>
+<rect x="110" y="120" width="80" height="20" rx="10" fill="#8B008B"/>
+<text x="150" y="165" text-anchor="middle" dominant-baseline="central" fill="white" font-family="Arial" font-size="20" font-weight="bold">LuiFit</text>
+<text x="150" y="185" text-anchor="middle" dominant-baseline="central" fill="white" font-family="Arial" font-size="12">E-commerce</text>
+</svg>

@@ -12,7 +12,12 @@ import Node from '../images/nodejs.png';
 import Mysql from '../images/mysql.png';
 import Sequelize from '../images/sequelize.png';
 import Express from '../images/express.png';
-import Docker from '../images/icons8-docker-96.png';
+import Docker from '../images/docker.svg';
+import NextJS from '../images/nextjs.svg';
+import TailwindCSS from '../images/tailwind.svg';
+import CSharp from '../images/csharp.svg';
+import MongoDB from '../images/mongodb.svg';
+import Jest from '../images/jest.svg';
 
 
 export const HabilityArray = [
@@ -75,5 +80,25 @@ export const HabilityArray = [
     {
         name: 'Docker',
         image: Docker,
+    },
+    {
+        name: 'Next.js',
+        image: NextJS,
+    },
+    {
+        name: 'TailwindCSS',
+        image: TailwindCSS,
+    },
+    {
+        name: 'C#',
+        image: CSharp,
+    },
+    {
+        name: 'MongoDB',
+        image: MongoDB,
+    },
+    {
+        name: 'Jest',
+        image: Jest,
     }
 ]
